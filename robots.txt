@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://floralnight.github.io/work-portfolio/sitemap.xml
+Sitemap: https://floralnight.github.io/sitemap.xml
