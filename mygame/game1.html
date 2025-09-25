@@ -8,32 +8,34 @@ table{color:#b90}
 #my_log{width: 1000px; height: 90px; background: #ccc; display: block; margin: 20px auto 0px; font-family: "Courier New"; overflow: auto;}
 .color_button{width:50px; height:50px; background: white; margin:10px; float: left;}
 .color_button:hover{cursor:pointer}
-
 </style>
 </head>
 
 
 
-<body background="resource/sky_bg.png" style="background-size: cover">
+<body background="" style="background-image: url('resource/sky_bg.png'); background-size: cover">
 
 
 <table width="1002px" height="500px" align="center">
 <tr>
 <td width="150px" valign="top"><h1 id="score_label">Score: 0</h1>
-<h1 id="mistake_label">Miss: 0</h1>
-<p><select id="difficulty">
-<option>Easy</option>
-<option>Normal</option>
-<option>Hard</option>
-<option>Extreme</option>
-</select></p>
-<select id="amounts">
-<option>4 squares</option>
-<option>12 squares</option>
-<option>24 squares</option>
-<option>48 squares</option>
-<option>84 squares</option>
-</select>
+	<h1 id="mistake_label">Miss: 0</h1>
+
+	<p><select id="difficulty">
+	<option>Easy</option>
+	<option>Normal</option>
+	<option>Hard</option>
+	<option>Extreme</option>
+	</select></p>
+
+	<p><select id="amounts">
+	<option>4 squares</option>
+	<option>12 squares</option>
+	<option>24 squares</option>
+	<option>48 squares</option>
+	<option>84 squares</option>
+	</select></p>
+	<p><button onclick="changeBg()">Change background</button></p>
 </td>
 
 <td id="game_play" valign="top">
@@ -49,6 +51,7 @@ table{color:#b90}
 
 
 <script>
+console.log("© Copyright 2025 Minh Dang")
 var randomBtn;
 var inc=20;
 var score=0;
@@ -152,6 +155,16 @@ function log(txt){
 }
 function setText(id,txt){
 	document.getElementById(id).innerHTML=txt;
+}
+function changeBg(){
+	if(document.body.style.backgroundImage==""){
+		document.body.style.backgroundImage="url('resource/sky_bg.png')";
+		document.body.style.backgroundColor="";
+	} else {
+		document.body.style.backgroundImage="";
+		document.body.style.backgroundColor="black";
+	}
+
 }
 </script>
 
