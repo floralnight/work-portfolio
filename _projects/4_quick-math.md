@@ -17,5 +17,5 @@ Control: Mouse only
 
 A good game to brain excercise. Their is a timer that automatically start as soon as you open the link. The count is at the bottom of the last answer choice. Enjoy playing!
 
-<a href="../../mygame/game4.html"><img src="../../assets/img/logo/Icon_Quick math.png" width="200" /></a>
-# [PLAY](../../mygame/game4.html)
+<a href="../../mygame/game2.html"><img src="../../assets/img/logo/Icon_Quick math.png" width="200" /></a>
+# [PLAY](../../mygame/game2.html)

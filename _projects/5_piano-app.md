@@ -19,5 +19,5 @@ Press a random key on your keyboard (A-Z) to heard the music note. The backround
 
 **Caution: Loud volumn**
 
-<a href="../../mygame/game3.html"><img src="../../assets/img/logo/Icon_Piano background changer.png" width="200" /></a>
-# [PLAY](../../mygame/game3.html)
+<a href="../../mygame/game4.html"><img src="../../assets/img/logo/Icon_Piano background changer.png" width="200" /></a>
+# [PLAY](../../mygame/game4.html)
