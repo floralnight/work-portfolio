@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/work-portfolio/blog/";
           },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "publications by categories in reversed chronological order.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/work-portfolio/publications/";
-          },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of my projects.",
@@ -32,31 +25,10 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "My repositories information",
           section: "Navigation",
           handler: () => {
             window.location.href = "/work-portfolio/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/work-portfolio/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/work-portfolio/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/work-portfolio/people/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -471,19 +443,19 @@ ninja.data = [{
           description: "Choose a square that has a different color than the rest.",
           section: "Projects",handler: () => {
               window.location.href = "/work-portfolio/projects/3_color-picker/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-quick-math",
+          title: 'Quick Math',
+          description: "Basic math addition with 4 answer choices",
           section: "Projects",handler: () => {
-              window.location.href = "/work-portfolio/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/work-portfolio/projects/4_quick-math/";
+            },},{id: "projects-piano-changer",
+          title: 'Piano Changer',
+          description: "Play the piano with custom background images",
           section: "Projects",handler: () => {
-              window.location.href = "/work-portfolio/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/work-portfolio/projects/5_piano-app/";
+            },},{id: "projects-password-generator",
+          title: 'Password Generator',
+          description: "Generate random password",
           section: "Projects",handler: () => {
               window.location.href = "/work-portfolio/projects/6_project/";
             },},{id: "projects-project-7",
@@ -506,7 +478,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6D%64%61%6E%67%30%30%32%37@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
@@ -516,11 +488,11 @@ ninja.data = [{
           window.open("https://github.com/floralnight", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
+        id: 'social-instagram',
+        title: 'Instagram',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/https://www.linkedin.com/in/minh-dang-bba095234/", "_blank");
+          window.open("https://instagram.com/shining_starz2", "_blank");
         },
       },{
         id: 'social-youtube',
