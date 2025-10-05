@@ -2,7 +2,7 @@
 layout: page
 title: Piano Changer
 description: Play the piano with custom background images
-img: assets/img/logo/Icon_Piano background changer.png
+img: #assets/img/logo/Icon_Piano background changer.png
 importance: 3
 category: app
 ---

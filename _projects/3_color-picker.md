@@ -2,7 +2,7 @@
 layout: page
 title: Color Picker
 description: Choose a square that has a different color than the rest.
-img: assets/img/logo/Icon_Square color picker.png
+img: #assets/img/logo/Icon_Square color picker.png
 #redirect: ../mygame/game1.html
 importance: 1
 category: app
