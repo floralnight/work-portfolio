@@ -457,22 +457,22 @@ ninja.data = [{
           title: 'Password Generator',
           description: "Generate random password",
           section: "Projects",handler: () => {
-              window.location.href = "/work-portfolio/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/work-portfolio/projects/6_pw-generator/";
+            },},{id: "projects-a-little-help",
+          title: 'A Little Help',
+          description: "Autodesk Maya",
           section: "Projects",handler: () => {
-              window.location.href = "/work-portfolio/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/work-portfolio/projects/7_little-help-3d/";
+            },},{id: "projects-earth",
+          title: 'Earth',
+          description: "Photoshop",
           section: "Projects",handler: () => {
-              window.location.href = "/work-portfolio/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+              window.location.href = "/work-portfolio/projects/8_earth-environment/";
+            },},{id: "projects-fun-3d",
+          title: 'Fun 3D',
+          description: "Cool 3d stuffs made by me",
           section: "Projects",handler: () => {
-              window.location.href = "/work-portfolio/projects/9_project/";
+              window.location.href = "/work-portfolio/projects/9_cool-3d/";
             },},{
         id: 'social-email',
         title: 'email',
