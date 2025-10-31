@@ -50,7 +50,3 @@ instagram_id: shining_starz2 # your instagram id
 # x_username: # your X handle
 youtube_id: floralNight23 #  (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-sketch_channel: # can be any name here other than the ones already defined above
-  logo: assets/img/sketch_channel.jpg # can be png, svg, jpg
-  title: Sketch channel
-  url: https://www.youtube.com/@techann-e3q
