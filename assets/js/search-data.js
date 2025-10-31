@@ -502,13 +502,6 @@ ninja.data = [{
           window.open("https://youtube.com/@floralNight23", "_blank");
         },
       },{
-        id: 'social-sketch_channel',
-        title: 'Sketch_channel',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.youtube.com/@techann-e3q", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
