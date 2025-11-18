@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: /work-portfolio/sitemap.xml
+Sitemap: https://mdangdev.com/work-portfolio/sitemap.xml
