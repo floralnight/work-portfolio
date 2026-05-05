@@ -6,7 +6,7 @@ subtitle: An artist, a programmer
 
 profile:
   align: right
-  image: profile_pic.png
+  image: profile_pic2.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>based in USA</p>
